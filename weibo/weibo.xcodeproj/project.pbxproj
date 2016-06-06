@@ -81,7 +81,6 @@
 		F13B43251D05BB0A0051E477 = {
 			isa = PBXGroup;
 			children = (
-				F13B43301D05BB0A0051E477 /* weibo */,
 				F13B434A1D05BB0A0051E477 /* weiboTests */,
 				F13B43551D05BB0A0051E477 /* weiboUITests */,
 				F13B432F1D05BB0A0051E477 /* Products */,
@@ -125,6 +124,7 @@
 		F13B434A1D05BB0A0051E477 /* weiboTests */ = {
 			isa = PBXGroup;
 			children = (
+				F13B43641D05BBB50051E477 /* New Group */,
 				F13B434B1D05BB0A0051E477 /* weiboTests.m */,
 				F13B434D1D05BB0A0051E477 /* Info.plist */,
 			);
@@ -138,6 +138,15 @@
 				F13B43581D05BB0A0051E477 /* Info.plist */,
 			);
 			path = weiboUITests;
+			sourceTree = "<group>";
+		};
+		F13B43641D05BBB50051E477 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				F13B43301D05BB0A0051E477 /* weibo */,
+			);
+			name = "New Group";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
