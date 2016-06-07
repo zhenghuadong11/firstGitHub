@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         let tabarViewController:MYTabbarViewController = MYTabbarViewController()
         self.addChildViewController(tabarViewController)
         self.view .addSubview(tabarViewController.view)
-        
+        print("xiugaile")
 //        shadowView.frame = CGRectMake(0, 64, self.view.frame.width,20)
 //        self.view.addSubview(shadowView)
 //        shadowView.alpha = 0.5
