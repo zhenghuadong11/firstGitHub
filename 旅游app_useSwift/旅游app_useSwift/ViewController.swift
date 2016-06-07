@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         self.view .addSubview(tabarViewController.view)
         print("xiugaile")
         print("再次修改")
+        print("修改再次")
 //        shadowView.frame = CGRectMake(0, 64, self.view.frame.width,20)
 //        self.view.addSubview(shadowView)
 //        shadowView.alpha = 0.5
