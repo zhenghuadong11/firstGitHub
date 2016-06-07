@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MYZhifuViewController" customModule="旅游app_useSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="_backGroundImageView" destination="mbT-xk-kFG" id="4Ep-YG-JQv"/>
+                <outlet property="passWordTextField" destination="wax-m8-sYm" id="kDz-Ey-Qk8"/>
+                <outlet property="userTextField" destination="iHM-r2-Yx3" id="xd6-0V-Zao"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhifubaoDenglu" translatesAutoresizingMaskIntoConstraints="NO" id="mbT-xk-kFG">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="登陆支付宝" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RL4-FG-sOM">
+                    <rect key="frame" x="45" y="75" width="123" height="60"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="邮箱地址／手机号码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iHM-r2-Yx3">
+                    <rect key="frame" x="72" y="155" width="230" height="50"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wax-m8-sYm">
+                    <rect key="frame" x="72" y="208" width="230" height="50"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rf6-mD-yQW">
+                    <rect key="frame" x="242" y="263" width="105" height="30"/>
+                    <state key="normal" title="忘记登陆密码？">
+                        <color key="titleColor" red="0.95686274510000002" green="0.51752968763691698" blue="0.67986545653545205" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21A-66-syN">
+                    <rect key="frame" x="27" y="411" width="90" height="30"/>
+                    <state key="normal" title="淘宝会员登陆"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1SI-bS-vtA">
+                    <rect key="frame" x="157" y="411" width="60" height="30"/>
+                    <state key="normal" title="账号激活"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQs-61-dzO">
+                    <rect key="frame" x="281" y="411" width="60" height="30"/>
+                    <state key="normal" title="免费注册"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwg-kc-eSd">
+                    <rect key="frame" x="78" y="295" width="219" height="54"/>
+                    <color key="backgroundColor" red="1" green="0.60427674426223388" blue="0.18986034184364264" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="登录">
+                        <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                    <connections>
+                        <action selector="loginButtonClick:" destination="-1" eventType="touchUpInside" id="AlD-Lc-zMV"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="mbT-xk-kFG" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="HY8-TR-M7b"/>
+                <constraint firstItem="mbT-xk-kFG" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="Npf-pP-BIo"/>
+                <constraint firstItem="mbT-xk-kFG" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="ZK6-nT-tgT"/>
+                <constraint firstItem="mbT-xk-kFG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yKW-r5-M6B"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="zhifubaoDenglu" width="218" height="220"/>
+    </resources>
+</document>

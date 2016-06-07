@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MYImageEvvaluationViewController" customModule="旅游app_useSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="A1U-QX-GOe" id="ZwR-ft-5Rw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydf-xA-g8I">
+                    <rect key="frame" x="51" y="246" width="60" height="30"/>
+                    <state key="normal" title="相册添加"/>
+                    <connections>
+                        <action selector="albumClick:" destination="-1" eventType="touchUpInside" id="da3-1f-Xkf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5d8-3N-yj8">
+                    <rect key="frame" x="157" y="246" width="60" height="30"/>
+                    <state key="normal" title="相机照相"/>
+                    <connections>
+                        <action selector="cameraClick:" destination="-1" eventType="touchUpInside" id="my1-HE-Tr8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jm8-Ym-otb">
+                    <rect key="frame" x="117" y="325" width="30" height="30"/>
+                    <state key="normal" title="确定"/>
+                    <connections>
+                        <action selector="makeSureClick:" destination="-1" eventType="touchUpInside" id="sOw-CM-Ja9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpa-XS-zGa">
+                    <rect key="frame" x="227" y="325" width="30" height="30"/>
+                    <state key="normal" title="取消"/>
+                    <connections>
+                        <action selector="cancleClick:" destination="-1" eventType="touchUpInside" id="G9a-EJ-Om5"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A1U-QX-GOe">
+                    <rect key="frame" x="145" y="90" width="85" height="85"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keb-qT-hi8">
+                    <rect key="frame" x="271" y="246" width="75" height="30"/>
+                    <state key="normal" title="自定义图片"/>
+                    <connections>
+                        <action selector="selfDecideClick:" destination="-1" eventType="touchUpInside" id="M5K-qR-J8S"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="89.5" y="97.5"/>
+        </view>
+    </objects>
+</document>

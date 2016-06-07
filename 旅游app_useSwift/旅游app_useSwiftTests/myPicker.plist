@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>date</key>
+		<date>2016-04-23T01:26:22Z</date>
+		<key>scenicNum</key>
+		<string>1</string>
+		<key>name</key>
+		<string>山谷祠</string>
+		<key>user</key>
+		<string>zheng</string>
+		<key>picture</key>
+		<string>1.jpg</string>
+		<key>one_word</key>
+		<string>这里风景好</string>
+		<key>ticketNum</key>
+		<string>1</string>
+		<key>money</key>
+		<string>10</string>
+		<key>pass</key>
+		<string>256301</string>
+	</dict>
+</array>
+</plist>

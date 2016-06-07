@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MYHeadImageSendViewController" customModule="旅游app_useSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="Dnk-hG-G3v" id="a5f-2g-aX3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dnk-hG-G3v">
+                    <rect key="frame" x="142" y="97" width="91" height="97"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4S9-Id-BF4">
+                    <rect key="frame" x="60" y="266" width="60" height="30"/>
+                    <state key="normal" title="相册上传"/>
+                    <connections>
+                        <action selector="albumSendClick:" destination="-1" eventType="touchUpInside" id="qpo-lt-gau"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GH-xf-zCG">
+                    <rect key="frame" x="157" y="267" width="60" height="30"/>
+                    <state key="normal" title="拍照上传"/>
+                    <connections>
+                        <action selector="camelSendClick:" destination="-1" eventType="touchUpInside" id="5lM-my-Duc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWd-3W-8la">
+                    <rect key="frame" x="172" y="369" width="30" height="30"/>
+                    <state key="normal" title="上传"/>
+                    <connections>
+                        <action selector="sendToHeadImage:" destination="-1" eventType="touchUpInside" id="XRG-GN-eC4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X67-Y9-Xs6">
+                    <rect key="frame" x="260" y="266" width="75" height="30"/>
+                    <state key="normal" title="自定义设计"/>
+                    <connections>
+                        <action selector="selfSendClick:" destination="-1" eventType="touchUpInside" id="WxK-hx-puF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="75.5" y="90.5"/>
+        </view>
+    </objects>
+</document>

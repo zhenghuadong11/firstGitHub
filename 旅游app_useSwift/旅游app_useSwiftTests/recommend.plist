@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>山谷祠</string>
+		<key>num</key>
+		<string>1</string>
+		<key>picture</key>
+		<string>1.jpg</string>
+		<key>oneWordToRecommend</key>
+		<string>这里风景好</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>下枧河风光</string>
+		<key>num</key>
+		<string>2</string>
+		<key>picture</key>
+		<string>2.jpg</string>
+		<key>oneWordToRecommend</key>
+		<string>这里风景好</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>刘三姐故居</string>
+		<key>num</key>
+		<string>3</string>
+		<key>picture</key>
+		<string>3.jpg</string>
+		<key>oneWordToRecommend</key>
+		<string>这里风景好</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>壮古佬景区</string>
+		<key>num</key>
+		<string>4</string>
+		<key>picture</key>
+		<string>4.jpg</string>
+		<key>oneWordToRecommend</key>
+		<string>这里风景好</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>龙江水中石林</string>
+		<key>num</key>
+		<string>5</string>
+		<key>picture</key>
+		<string>5.jpg</string>
+		<key>oneWordToRecommend</key>
+		<string>这里风景好</string>
+	</dict>
+</array>
+</plist>
