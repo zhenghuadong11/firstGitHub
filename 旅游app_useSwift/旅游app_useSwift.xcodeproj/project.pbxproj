@@ -403,7 +403,7 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		F16BA31D1CCBB9C300F70D71 /* 转盘 */ = {
+		F16BA31D1CCBB9C300F70D71 /* turntable */ = {
 			isa = PBXGroup;
 			children = (
 				F1D6E2891CCE0AAD008BFD8C /* model */,
@@ -413,7 +413,7 @@
 				F1CF26961CCCC4CF0089A1E5 /* MYIndicatorView.swift */,
 				F1CF26981CCCC52B0089A1E5 /* MYOneTurnView.swift */,
 			);
-			name = "转盘";
+			name = turntable;
 			sourceTree = "<group>";
 		};
 		F18A8A6F1CC08C190058C3EC = {
@@ -440,20 +440,20 @@
 		F18A8A7A1CC08C190058C3EC /* 旅游app_useSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F1D6E2861CCE0094008BFD8C /* 收藏button */,
-				F16BA31D1CCBB9C300F70D71 /* 转盘 */,
-				F1B17FA31CCA2A85006AF6BA /* 支付页面 */,
-				F1A08E651CC6778E005BB283 /* 登录页面 */,
-				F1C99E791CC507F30090DD10 /* 地图显示 */,
-				F1BD33F41CC3E48B00920282 /* 商品显示 */,
-				F1BD33D11CC35E3E00920282 /* 主页面 */,
-				F1BD33CE1CC35D4800920282 /* 一个文件夹 */,
-				F1BD33BA1CC35AFB00920282 /* 景点 */,
-				F1BD33B91CC35AF900920282 /* 首页 */,
-				F1BD33B81CC35AF700920282 /* 设置 */,
-				F1BD33B71CC35AF400920282 /* 我的 */,
-				F1BD33B61CC35AE300920282 /* 第三方 */,
-				F1B2202E1CC1EC01007AFC0E /* 新特性 */,
+				F1D6E2861CCE0094008BFD8C /* collect_button */,
+				F16BA31D1CCBB9C300F70D71 /* turntable */,
+				F1B17FA31CCA2A85006AF6BA /* payPage */,
+				F1A08E651CC6778E005BB283 /* loginPage */,
+				F1C99E791CC507F30090DD10 /* mapShow */,
+				F1BD33F41CC3E48B00920282 /* scenicSpotShow */,
+				F1BD33D11CC35E3E00920282 /* mainPage */,
+				F1BD33CE1CC35D4800920282 /* onlyOne */,
+				F1BD33BA1CC35AFB00920282 /* scenicSpotPage */,
+				F1BD33B91CC35AF900920282 /* firstPage */,
+				F1BD33B81CC35AF700920282 /* setUpPage */,
+				F1BD33B71CC35AF400920282 /* minePage */,
+				F1BD33B61CC35AE300920282 /* thirdRespect */,
+				F1B2202E1CC1EC01007AFC0E /* newFeature */,
 				F18A8A7B1CC08C190058C3EC /* AppDelegate.swift */,
 				F18A8A7D1CC08C190058C3EC /* ViewController.swift */,
 				F18A8A7F1CC08C190058C3EC /* Main.storyboard */,
@@ -558,13 +558,13 @@
 			path = SocialSDKXib;
 			sourceTree = "<group>";
 		};
-		F1A08E651CC6778E005BB283 /* 登录页面 */ = {
+		F1A08E651CC6778E005BB283 /* loginPage */ = {
 			isa = PBXGroup;
 			children = (
 				F1F1B0EA1CD459950086AD44 /* model */,
 				F1A08E661CC677A8005BB283 /* controller */,
 			);
-			name = "登录页面";
+			name = loginPage;
 			sourceTree = "<group>";
 		};
 		F1A08E661CC677A8005BB283 /* controller */ = {
@@ -593,13 +593,13 @@
 			name = "图片评价";
 			sourceTree = "<group>";
 		};
-		F1B17FA31CCA2A85006AF6BA /* 支付页面 */ = {
+		F1B17FA31CCA2A85006AF6BA /* payPage */ = {
 			isa = PBXGroup;
 			children = (
 				F1A716AF1CCB07A300B75884 /* model */,
 				F1B17FA41CCA2A93006AF6BA /* New Group */,
 			);
-			name = "支付页面";
+			name = payPage;
 			sourceTree = "<group>";
 		};
 		F1B17FA41CCA2A93006AF6BA /* New Group */ = {
@@ -616,7 +616,7 @@
 			name = "New Group";
 			sourceTree = "<group>";
 		};
-		F1B2202E1CC1EC01007AFC0E /* 新特性 */ = {
+		F1B2202E1CC1EC01007AFC0E /* newFeature */ = {
 			isa = PBXGroup;
 			children = (
 				F1B2202F1CC1EC2F007AFC0E /* MYNewFeatureViewController.swift */,
@@ -628,7 +628,7 @@
 				F1E09BAF1CD2FFBB000609FE /* MYNewFeature_ticketManager.swift */,
 				F1E09BB11CD2FFE7000609FE /* MYNewFeature_ticketManager.xib */,
 			);
-			name = "新特性";
+			name = newFeature;
 			sourceTree = "<group>";
 		};
 		F1B220351CC20081007AFC0E /* 图片 */ = {
@@ -671,54 +671,54 @@
 			name = view;
 			sourceTree = "<group>";
 		};
-		F1BD33B61CC35AE300920282 /* 第三方 */ = {
+		F1BD33B61CC35AE300920282 /* thirdRespect */ = {
 			isa = PBXGroup;
 			children = (
 				F192E42C1CFC4A980078F679 /* AFNetworking */,
 				F1A08E391CC667AB005BB283 /* UMSocial_Sdk_5.0.1 */,
 				F15F8CC61CC145CE00F253DE /* SnapKit */,
 			);
-			name = "第三方";
+			name = thirdRespect;
 			sourceTree = "<group>";
 		};
-		F1BD33B71CC35AF400920282 /* 我的 */ = {
+		F1BD33B71CC35AF400920282 /* minePage */ = {
 			isa = PBXGroup;
 			children = (
 				F1BD33C71CC35B8700920282 /* controller */,
 				F1BD33C51CC35B8000920282 /* view */,
 				F1BD33C41CC35B7D00920282 /* model */,
 			);
-			name = "我的";
+			name = minePage;
 			sourceTree = "<group>";
 		};
-		F1BD33B81CC35AF700920282 /* 设置 */ = {
+		F1BD33B81CC35AF700920282 /* setUpPage */ = {
 			isa = PBXGroup;
 			children = (
 				F1BD33C31CC35B6900920282 /* controller */,
 				F1BD33C21CC35B6800920282 /* view */,
 				F1BD33C11CC35B6500920282 /* model */,
 			);
-			name = "设置";
+			name = setUpPage;
 			sourceTree = "<group>";
 		};
-		F1BD33B91CC35AF900920282 /* 首页 */ = {
+		F1BD33B91CC35AF900920282 /* firstPage */ = {
 			isa = PBXGroup;
 			children = (
 				F1BD33C01CC35B5100920282 /* controller */,
 				F1BD33BF1CC35B4F00920282 /* view */,
 				F1BD33BE1CC35B4D00920282 /* model */,
 			);
-			name = "首页";
+			name = firstPage;
 			sourceTree = "<group>";
 		};
-		F1BD33BA1CC35AFB00920282 /* 景点 */ = {
+		F1BD33BA1CC35AFB00920282 /* scenicSpotPage */ = {
 			isa = PBXGroup;
 			children = (
 				F1BD33BD1CC35B3900920282 /* controller */,
 				F1BD33BC1CC35B3700920282 /* view */,
 				F1BD33BB1CC35B3500920282 /* model */,
 			);
-			name = "景点";
+			name = scenicSpotPage;
 			sourceTree = "<group>";
 		};
 		F1BD33BB1CC35B3500920282 /* model */ = {
@@ -835,20 +835,20 @@
 			name = controller;
 			sourceTree = "<group>";
 		};
-		F1BD33CE1CC35D4800920282 /* 一个文件夹 */ = {
+		F1BD33CE1CC35D4800920282 /* onlyOne */ = {
 			isa = PBXGroup;
 			children = (
 				F1BD33CF1CC35D9B00920282 /* MYAllDefine.swift */,
 			);
-			name = "一个文件夹";
+			name = onlyOne;
 			sourceTree = "<group>";
 		};
-		F1BD33D11CC35E3E00920282 /* 主页面 */ = {
+		F1BD33D11CC35E3E00920282 /* mainPage */ = {
 			isa = PBXGroup;
 			children = (
 				F1BD33D21CC35E6700920282 /* MYTabbarViewController.swift */,
 			);
-			name = "主页面";
+			name = mainPage;
 			sourceTree = "<group>";
 		};
 		F1BD33EC1CC3C74F00920282 /* cell */ = {
@@ -859,14 +859,14 @@
 			name = cell;
 			sourceTree = "<group>";
 		};
-		F1BD33F41CC3E48B00920282 /* 商品显示 */ = {
+		F1BD33F41CC3E48B00920282 /* scenicSpotShow */ = {
 			isa = PBXGroup;
 			children = (
 				F1BD33F71CC3E4A400920282 /* controller */,
 				F1BD33F61CC3E4A200920282 /* view */,
 				F1BD33F51CC3E4A000920282 /* model */,
 			);
-			name = "商品显示";
+			name = scenicSpotShow;
 			sourceTree = "<group>";
 		};
 		F1BD33F51CC3E4A000920282 /* model */ = {
@@ -912,12 +912,12 @@
 			name = tableViewcell;
 			sourceTree = "<group>";
 		};
-		F1C99E791CC507F30090DD10 /* 地图显示 */ = {
+		F1C99E791CC507F30090DD10 /* mapShow */ = {
 			isa = PBXGroup;
 			children = (
 				F1C99E7A1CC508070090DD10 /* MYMapShowControllerView */,
 			);
-			name = "地图显示";
+			name = mapShow;
 			sourceTree = "<group>";
 		};
 		F1C99E7A1CC508070090DD10 /* MYMapShowControllerView */ = {
@@ -928,12 +928,12 @@
 			name = MYMapShowControllerView;
 			sourceTree = "<group>";
 		};
-		F1D6E2861CCE0094008BFD8C /* 收藏button */ = {
+		F1D6E2861CCE0094008BFD8C /* collect_button */ = {
 			isa = PBXGroup;
 			children = (
 				F1D6E2871CCE00E0008BFD8C /* MYCollectButton.swift */,
 			);
-			name = "收藏button";
+			name = collect_button;
 			sourceTree = "<group>";
 		};
 		F1D6E2891CCE0AAD008BFD8C /* model */ = {
