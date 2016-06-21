@@ -21,15 +21,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow()
         self.window?.frame = UIScreen.mainScreen().bounds
         self.window?.makeKeyAndVisible()
-        if isNewVersion()
-        {
-            
-              self.window?.rootViewController = MYNewFeatureViewController()
-        }
-        else
-        {
+//        if isNewVersion()
+//        {
+//            
+//              self.window?.rootViewController = MYNewFeatureViewController()
+//        }
+//        else
+//        {
                self.window?.rootViewController = ViewController()
-        }
+//        }
           return true
     }
 
